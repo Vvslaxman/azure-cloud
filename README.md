@@ -3,10 +3,10 @@
 ## Cloud Deployment Model
 Cloud Deployment Model is simple a separation which describes where are the company resources deployed. Whenever this is in public cloud provider environment or private datacenter.
 
-Layer  |	Cloud Provider | Own Datacenter
-Public |	✅	           |    ✖
-Hybrid |	✅             |   ✅
-Private|	✖              |	  ✅
+- Layer  |	Cloud Provider | Own Datacenter
+- Public |	✅	             |    ✖
+- Hybrid |	✅             |   ✅
+- Private|	✖              |	  ✅
 ## Public Cloud
 ### Key Characteristics
 
