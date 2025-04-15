@@ -1,4 +1,4 @@
-# azure-cloud
+# az900
 
 ## Cloud Deployment Model
 Cloud Deployment Model is simple a separation which describes where are the company resources deployed. Whenever this is in public cloud provider environment or private datacenter.
@@ -137,6 +137,70 @@ Cloud Deployment Model is simple a separation which describes where are the comp
 1. Billing
 2. Security and access management
 3. Application Lifecycle
+
+## Virtualization
+- Emulation of physical machines
+- Different virtual hardware configuration per machine/app
+- Different operating systems per machine/app
+- Total separation of environments: file systems,services,ports,middleware,configuration
+## Virtual Machines
+- Infrastructure as a Service (IaaS)
+- Total control over the operating system and the software
+- Supports marketplace and custom images
+- Best suited for:
+1. Custom software requiring custom system configuration
+2. Lift-and-shift scenarios
+3. Can run any application/scenario
+   a) web apps & web services,
+   b) databases,
+   c) desktop applications,
+   d) jumpboxes,
+   e) gateways, etc.
+## Virtual Machine Scale Sets
+- Infrastructure as a Service (IaaS)
+- Set of identical virtual machines
+- Built-in auto scaling features
+- Designed for manual and auto-scaled workloads like web services,* batch processing, etc.
+## Containers
+- Use host’s operating system
+- Emulate operating system (VMs emulate hardware)
+- Lightweight (no O/S)
+- Development Effort
+- Maintenance
+- Compute & storage requirements
+- Respond quicker to demand changes
+- Designed for almost any scenario
+## Azure Container Instances
+- Simplest and fastest way to run a container in Azure
+- Platform as a Service
+- Serverless Containers
+- Designed for
+1. Small and simple web apps/services
+2. Background jobs
+3. Scheduled scripts
+## Azure Kubernetes Service (AKS)
+- Open-source container orchestration platform
+- Platform as a Service
+- Highly scalable and customizable
+- Designed for high scale container deployments (anything really!)
+## App Service
+- Designed as enterprise grade web application service
+- Platform as a Service
+- Supports multiple programming languages and containers
+## Azure Functions (Function Apps)
+- Platform as a Service
+- Serverless
+- Two hosting/pricing models
+- Consumption-based plan
+- Dedicated plan
+- Designed for micro/nano-services
+## Summary
+- Virtual Machines (IaaS) - Custom software, custom requirements, very specialized, high degree of control
+- VM Scale Sets (IaaS) - Auto-scaled workloads for VMs
+- Container Instances (PaaS) - Simple container hosting, easy to start
+- Kubernetes Service (PaaS) - Highly scalable and customizable * container hosting platform
+- App Services (PaaS) - Web applications, a lot of enterprise web * hosting features, easy to start
+- Functions (PaaS) (Function as a Service) (Serverless) - micro/nano-services, excellent consumption-based pricing, easy to start
  
  
 
