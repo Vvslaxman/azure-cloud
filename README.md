@@ -200,7 +200,7 @@ Cloud Deployment Model is simple a separation which describes where are the comp
 - Container Instances (PaaS) - Simple container hosting, easy to start
 - Kubernetes Service (PaaS) - Highly scalable and customizable * container hosting platform
 - App Services (PaaS) - Web applications, a lot of enterprise web * hosting features, easy to start
-- Functions (PaaS) (Function as a Service) (Serverless) - micro/nano-services, excellent consumption-based pricing, easy to start
+- Functions (PaaS) (Function as a Service) (Serverless) - micro/nano-services, excellent consumption-based pricing, easy to start.
  
  
 
